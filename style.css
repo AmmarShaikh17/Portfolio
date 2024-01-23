@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;  */
+}
+main{
+    background-color: black;
+    width: 100%;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;   
+    height: 200px;
+    /* box-sizing: border-box;  */
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo img{
+    width: 80%;
+    height: 80px;
+    border-radius: 50px;
+}
+/* .navbar{
+    box-sizing: border-box;
+} */
+Ul{
+    display: flex;
+    width: 400px;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgba(146, 148, 141, 0.288);
+    padding: 25px;
+    border-radius: 30px;
+    
+    
+}
+li:hover{
+    background-color: rgb(199, 192, 192);
+    padding: 5px;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+}
+button {
+    width: 100px;
+    height: 60px;
+   border-color: wheat;
+}
+
+.conbtn{
+    width: 120px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    /* padding: 0px; */
+}
+.name{
+    height: 200px;
+    color: white;
+    font-size: 150px;
+    text-align: center;
+
+}
+.space{
+    height: 600px;
+    /* display: flex; */
+    
+}
+.imgdis{
+    width: 450px;
+    margin-top: -180px;
+    padding-left: 35%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+ }
+ .container1{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px;   */
+    margin: 20px 200px 0px 200px;
+    color: white;
+ }
+
+ .child1{
+    width:60%;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+  
+ }
+ .child-text{
+    padding: 20px;
+    margin: 10px; 
+ }
+ .child2{
+    width: 35%;
+    height: 400px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    /* margin-right: 150px; */
+ }
+.img-3{
+    border-radius: 30px;
+}
+ .container2{
+    /* height: 1200px; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px;   */
+    margin: 20px 200px 0px 200px;
+    color: white;
+ }
+
+ .child3{
+    width:48%;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+ }
+ .child4{
+    width:48%;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+ }
+ .child5{
+    width:70%;
+    height: 600px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 20px 200px 0px 200px;
+ }
+ .child5-text{
+    text-align: center;
+    /* padding: 20px; */
+    margin: 10px; 
+    font-size: 100px;
+    color: white;
+ }
+ .container3{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px 200px 0px 200px; */
+    margin: 20px;
+    color: white;
+    padding: 10px;
+    
+ }
+ .tile1{
+    width: 23%;
+    border: 1px solid white;
+    padding: 10px;
+    height: auto;
+  
+ }
+ .tex{
+    margin: 20px;
+    float: right;
+
+ }
+ .card-logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin:10px;
+
+    
+ }
+ .card-logo{
+    float: left;
+ }
+ .child6{
+    width:70%;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 20px 200px 0px 200px;
+ }
+ .child6-text{
+    width:35% ;
+    /* padding: 20px; */
+    margin: 10px; 
+    font-size: 22px;
+    color: white;
+    /* border: 1px solid; */
+    margin: 35px;
+    float: left;
+}
+button{
+    background-color: rgb(96, 96, 231);
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.img-child-6{
+    /* border: 1px solid wheat; */
+    width: 35%;
+    float: right;
+    margin: 35px;
+}
+.child7{
+    width:70%;
+    height: 400px;
+    /* border: 1px solid gray; */
+    border-radius: 30px;
+    margin: 20px 100px 0px 100px;
+ }
+ .child7-text{
+    text-align: center;
+    /* padding: 20px; */
+    margin: 10px; 
+    font-size: 70px;
+    color: white;
+ }
+.btnemail{
+    background-color: rgb(0, 0, 0);
+    /* margin-top: 35px; */
+    width: 350px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+}
+.social-link p{
+    text-align: center;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    border-top: 1px solid white;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 15%;
+    color: white;
+    align-items: center;
+  
+    
+}
